@@ -1,0 +1,153 @@
+body, html { 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #dfdbdb;
+    height: 100%;
+    width: 100%;
+}
+
+.logo span{ /* le logo "l'esport " s'affiche en blanc  */
+    color: #ffffff;
+    text-align: left;
+}
+
+header{ /*la barre de navigation avant d y passer la souris*/
+
+    top: 0%;
+    left: 0%;
+    padding: 10px 10px;   
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;  
+    align-items: center;
+    transition: 0.5s;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+header:hover{ /* apres avoir passer la souris */
+    background-color:#330303 ;
+}
+
+
+
+.navbar{  /* barre de navigation */
+    display: flex;  
+    position: relative;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar a{
+    color: rgb(243, 246, 247);
+    text-decoration:none; 
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+#definition\ Esport {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 200px;
+}
+
+#definition\ Esport > div {
+    width: 48%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 200px;
+    box-sizing: border-box;
+    text-align: center; /* Justifie le texte */
+}
+
+#definition\ Esport h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+#definition\ Esport p {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.rectangle1 { /*les rectangles autour du texte */
+    border: 2px solid #000;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.rectangle2 {
+    border: 2px solid #000;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #fff;
+    border-radius: 10px
+}
+
+.rectangle3 {
+    border: 2px solid #000;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #fff;
+    border-radius: 10px
+}
+
+.rectangle4 {
+    border: 2px solid #000;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #fff;
+    border-radius: 10px
+}
+
+.rectangle5 {
+    border: 2px solid #000;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #fff;
+    border-radius: 10px
+}
+
+.rectangle6 {
+    border: 2px solid #000;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #fff;
+    border-radius: 10px
+}
+.rectangle7 {
+    border: 2px solid #dfdbdb;
+    padding: 10px;
+    margin-left: 450px;
+    margin-right: 500px;
+    background-color: #dfdbdb;
+    border-radius: 100px
+  }
+
+#site_passion img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}

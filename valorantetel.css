@@ -1,0 +1,124 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #dfdbdb;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .logo span{ /* Logo Esport ecrit en blanc */
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  header{ /* la couleur de la baniere avant de passer la souris */
+  
+    top: 0%;
+    left: 0%;a
+    padding: 10px 10px;   
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;  
+    align-items: center;
+    transition: 0.5s;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  
+  
+  header:hover{ /* la couleur de la banniere apres avoir passer la souris */
+    background-color:#330303 ;
+  }
+  
+  
+  
+  .navbar{ /* barre de navigation*/
+    display: flex;  
+    position: relative;
+  }
+  
+  .navbar li{
+    list-style: none;
+  }
+  
+  .navbar a{
+    color: rgb(243, 246, 247);
+    text-decoration:none; 
+    margin-left: 30px;
+    font-weight: 700;
+  }
+  
+  
+  h1, h2, h3 {
+    text-align: center;
+  }
+  
+  #menu {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  #menu li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  #menu a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  #Valorant {
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  #Valorant > div {
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  #Valorant img {
+    display: block;
+    margin: 0 auto; /* Centre l'image */
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #Valorant p {
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .rectangle1 { /*les rectangles autour du texte */
+    border: 2px solid #000;
+    padding: 10px;
+    margin-left: 100px;
+  }
+  
+  .rectangle2 {
+    border: 2px solid #000;
+    padding: 10px;
+    margin-left: 100px;
+  }
+  
+  .rectangle3 {
+    border: 2px solid #000;
+    padding: 10px;
+    margin-left: 100px;
+  }
+  
+  .rectangle4 {
+    border: 2px solid #000;
+    padding: 10px;
+    margin-left: 100px;
+  }
